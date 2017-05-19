@@ -1,0 +1,9 @@
+<!-- <h1>Students#index</h1>
+<p>Find me in app/views/students/index.html.erb</p>
+ -->
+
+ <% Student.all.each do |student| %>
+<ul>
+  <li><h3><%= student.to_s %></a><br></h3></li>
+</ul>
+  <% end %>
